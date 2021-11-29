@@ -6,7 +6,9 @@ import torch.optim as optim
 import torch.utils.data
 from torch.autograd import Variable
 import numpy as np
-from warpctc_pytorch import CTCLoss
+#from warpctc_pytorch import CTCLoss
+from torch.nn import CTCLoss
+
 import os
 import utils
 import dataset
